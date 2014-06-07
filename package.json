@@ -1,0 +1,23 @@
+{
+  "name": "authentick",
+  "version": "0.0.0",
+  "description": "authentick",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thetmkay/authentick.git"
+  },
+  "author": "thetmkay@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetmkay/authentick/issues"
+  },
+  "homepage": "https://github.com/thetmkay/authentick",
+  "dependencies": {
+    "express": "^4.2.0"
+  }
+}

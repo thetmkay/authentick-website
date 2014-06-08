@@ -2,10 +2,24 @@
 <html>
 	<head>
 		<title>Title</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,400,700|Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 	</head>
 	<body>
-
+		<div class="main-header">
+			<form class="inline-list" id="twitter-search">
+				<input placeholder="#hashtag" type="text" name="query">
+				<input type="button" name="plus" id="add-plus" value="+">
+				<input placeholder="address" type="text" name="address">
+				<input placeholder="radius in miles" type="text" name="radius">
+				<input type="button" name="filter-tweet" value="tweet" class="radio-button" data-checked="true">
+				<input type="button" name="filter-tweet" value="user" class="radio-button" data-checked="false">
+				<input type="button" name="filter-url" value="url" class="radio-button" data-checked="false">
+				<input type="button" name="filter-image" value="image" class="radio-button" data-checked="false">
+				<input type="submit" value="search">
+			</form>
+		</div>
+		<div class="main-body"></div>
 		<script src='js/jquery.js'></script>
 		<script src='js/app.js'></script>
 	</body>
